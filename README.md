@@ -1,5 +1,4 @@
-
-<div align="center">
+ <div align="center">
 
 # 🛒 Smart Grocery Store Management System
 
@@ -15,15 +14,17 @@
 
 <p>
   <a href="https://aliabbas0014.github.io/smart-grocery-store-system/demo.html">
-    <img src="https://img.shields.io/badge/🚀_VIEW_LIVE_DEMO-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View Live Demo">
+    <img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
   </a>
   &nbsp;
-  <a href="https://github.com/aliabbas0014/smart-grocery-store-system/blob/main/smart_grocery_store.py">
-    <img src="https://img.shields.io/badge/💻_VIEW_PYTHON_SOURCE-24292F?style=for-the-badge&logo=github&logoColor=white" alt="View Python Source">
+  <a href="https://github.com/aliabbas0014/smart-grocery-store-system">
+    <img src="assets/svg-buttons/source-code.svg" alt="View Source Code">
+  </a>
+  &nbsp;
+  <a href="#-project-overview">
+    <img src="assets/svg-buttons/explore-project.svg" alt="Explore Project">
   </a>
 </p>
-
-<sub>👆 Click the Live Demo badge to explore the interactive project.</sub>
 
 </div>
 
@@ -60,13 +61,75 @@ This project demonstrates practical implementation of Python programming concept
 - `break` and `return`
 - `max()` and `min()` functions
 
+---
+
+## 🏗️ System Design & Architecture
+
+The following diagrams explain the internal structure, data organization, and overall design of the Smart Grocery Store Management System.
+
+### 1. System Architecture
+
+<img src="assets/smart-grocery-store/system-architecture.svg" width="100%" alt="Smart Grocery Store System Architecture">
+
+### 2. Function Structure / UML Representation
+
+This diagram represents the actual procedural Python functions and their organization rather than an object-oriented class structure.
+
+<img src="assets/smart-grocery-store/uml-class-diagram.svg" width="100%" alt="Function Structure Diagram">
+
+### 3. Data Model Diagram
+
+The application uses two in-memory lists of dictionaries to maintain product information and completed sales records.
+
+<img src="assets/smart-grocery-store/entity-relationship-diagram.svg" width="100%" alt="Product and Sales Data Model">
+
+### 4. Use Case Diagram
+
+<img src="assets/smart-grocery-store/use-case-diagram.svg" width="100%" alt="Smart Grocery Store Use Case Diagram">
+
+---
+
+## 🔄 Application Workflow
+
+These diagrams illustrate how the application processes user requests, manages products, and handles customer sales.
+
+### 5. System Flowchart
+
+<img src="assets/smart-grocery-store/system-flowchart.svg" width="100%" alt="Smart Grocery Store System Flowchart">
+
+### 6. Sequence Diagram
+
+<img src="assets/smart-grocery-store/sequence-diagram.svg" width="100%" alt="Customer Sale Sequence Diagram">
+
+### 7. Data Flow Diagram (DFD)
+
+<img src="assets/smart-grocery-store/data-flow-diagram.svg" width="100%" alt="Smart Grocery Store Data Flow Diagram">
+
+---
+
+## 🧪 Testing Documentation
+
+Testing documentation demonstrates how the application's main operations and input validation scenarios can be checked.
+
+### 8. Test Cases
+
+<img src="assets/smart-grocery-store/test-cases.svg" width="100%" alt="Smart Grocery Store Test Cases">
+
+### 9. Testing Workflow
+
+<img src="assets/smart-grocery-store/testing-workflow.svg" width="100%" alt="Smart Grocery Store Testing Workflow">
+
+---
+
 ## 🌐 Interactive Demo
 
 Explore the browser-based demonstration of the project.
 
 <div align="center">
 
-[![OPEN LIVE WEBSITE](https://img.shields.io/badge/🚀_OPEN_LIVE_WEBSITE-16A34A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aliabbas0014.github.io/smart-grocery-store-system/demo.html)
+<a href="https://aliabbas0014.github.io/smart-grocery-store-system/demo.html">
+  <img src="https://img.shields.io/badge/🚀_OPEN_LIVE_WEBSITE-16A34A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Live Website">
+</a>
 
 </div>
 
@@ -86,9 +149,26 @@ Explore the browser-based demonstration of the project.
 ```text
 smart-grocery-store-system/
 │
-├── smart_grocery_store.py   # Main Python application
-├── demo.html                # Interactive browser demo
-└── README.md                # Project documentation
+├── assets/
+│   ├── smart-grocery-store/
+│   │   ├── uml-class-diagram.svg
+│   │   ├── entity-relationship-diagram.svg
+│   │   ├── use-case-diagram.svg
+│   │   ├── system-architecture.svg
+│   │   ├── sequence-diagram.svg
+│   │   ├── system-flowchart.svg
+│   │   ├── data-flow-diagram.svg
+│   │   ├── test-cases.svg
+│   │   └── testing-workflow.svg
+│   │
+│   └── svg-buttons/
+│       ├── live-demo.svg
+│       ├── source-code.svg
+│       └── explore-project.svg
+│
+├── smart_grocery_store.py
+├── demo.html
+└── README.md
 ```
 
 ## ⚙️ Requirements
@@ -117,7 +197,7 @@ python smart_grocery_store.py
 
 4. Select an option from the menu and follow the instructions.
 
-## 🧪 Example Sale
+## 🧾 Example Sale
 
 ```text
 Product: Milk
