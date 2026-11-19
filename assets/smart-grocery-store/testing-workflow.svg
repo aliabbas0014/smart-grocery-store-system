@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 645" width="1400" height="645" role="img" aria-label="Testing Workflow &amp; Verification Process">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="55%" stop-color="#0d172a"/>
+      <stop offset="100%" stop-color="#081120"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13223b"/>
+      <stop offset="100%" stop-color="#0f1b30"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.10"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#fbbf24"/>
+    </marker>
+    <pattern id="gridPattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1400" height="645" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="645" rx="16" fill="url(#gridPattern)"/>
+  <rect x="1" y="1" width="1398" height="643" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <rect x="24" y="20" width="1352" height="74" rx="12" fill="url(#headerGrad)" stroke="#0284c7" stroke-width="1.2"/>
+  <rect x="24" y="20" width="6" height="74" rx="3" fill="url(#accentBlue)"/>
+  <text x="46" y="51" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">Testing Workflow &amp; Verification Process</text>
+  <text x="46" y="75" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8">Manual CLI test execution flow and Assessment 03 requirement checks for smart_grocery_store.py</text>
+
+  <rect x="1165" y="38" width="188" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1259" y="59" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">Python 3 • Procedural CLI</text>
+
+  <rect x="28" y="124" width="244" height="198" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="28" y="124" width="244" height="34" rx="10" fill="#0c2d48"/>
+  <text x="150" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">1. Setup &amp; Clean State</text>
+  <text x="42" y="180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Run python smart_grocery_store.py</text>
+  <text x="42" y="202" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Verify empty initial collections:</text>
+  <text x="50" y="220" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="10" font-weight="400" fill="#7dd3fc">products=[], sales_records=[]</text>
+  <text x="42" y="248" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">• Prepare valid, edge, and</text>
+  <text x="52" y="265" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">invalid terminal inputs</text>
+  <path d="M 272 223 L 303 223" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+  <rect x="306" y="124" width="244" height="198" rx="10" fill="url(#cardGrad)" stroke="#22d3ee" stroke-width="1.5"/>
+  <rect x="306" y="124" width="244" height="34" rx="10" fill="#0b3446"/>
+  <text x="428" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">2. Input &amp; Guardrail Tests</text>
+  <text x="320" y="180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Non-integer text in numeric</text>
+  <text x="330" y="198" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">prompts (ValueError check)</text>
+  <text x="320" y="222" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Zero/negative price &amp; stock</text>
+  <text x="320" y="244" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Empty name or category</text>
+  <text x="320" y="266" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Duplicate product ID entry</text>
+  <path d="M 550 223 L 581 223" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowCyan)"/>
+  <rect x="584" y="124" width="244" height="198" rx="10" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="584" y="124" width="244" height="34" rx="10" fill="#08362c"/>
+  <text x="706" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">3. Catalog &amp; Stock Tests</text>
+  <text x="598" y="180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Add products (menu 1)</text>
+  <text x="598" y="202" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• View all products (menu 2)</text>
+  <text x="598" y="224" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Search by ID &amp; Name (menu 3)</text>
+  <text x="598" y="246" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Add or set stock (menu 4)</text>
+  <path d="M 828 223 L 859 223" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrowEmerald)"/>
+  <rect x="862" y="124" width="244" height="198" rx="10" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="862" y="124" width="244" height="34" rx="10" fill="#08362c"/>
+  <text x="984" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">4. Sales &amp; Stock Integrity</text>
+  <text x="876" y="180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Complete valid sale (menu 5)</text>
+  <text x="876" y="202" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Confirm stock deduction &amp;</text>
+  <text x="886" y="220" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="400" fill="#6ee7b7">sales_records append</text>
+  <text x="876" y="246" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Test qty &gt; stock rejection</text>
+  <path d="M 1106 223 L 1137 223" fill="none" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowAmber)"/>
+  <rect x="1140" y="124" width="232" height="198" rx="10" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5"/>
+  <rect x="1140" y="124" width="232" height="34" rx="10" fill="#3a2808"/>
+  <text x="1256" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#fde68a">5. Report &amp; Exit Tests</text>
+  <text x="1154" y="180" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• View sales log (menu 6)</text>
+  <text x="1154" y="202" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Verify report metrics, &lt;5</text>
+  <text x="1164" y="220" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">stock &amp; min/max (menu 7)</text>
+  <text x="1154" y="244" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">• Invalid menu key &amp; exit (8)</text>
+  <rect x="28" y="352" width="1344" height="242" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="50" y="384" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">ASSESSMENT 03 REQUIREMENT &amp; EDGE-CASE VERIFICATION CHECKLIST</text>
+  <text x="50" y="416" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#f8fafc">[OK] Data Structures: Uses a list of dicts for products and a separate list of dicts for sales_records.</text>
+  <text x="50" y="444" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#f8fafc">[OK] Functions &amp; Menu: Implements 9 custom functions and a continuous while True loop with menu options 1-8.</text>
+  <text x="50" y="472" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#f8fafc">[OK] Edge Cases: Handles empty lists, missing IDs, excessive sale quantities, low stock (&lt; 5), and min/max price items.</text>
+  <text x="50" y="500" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#f8fafc">[OK] Exception Handling: Catches ValueError on invalid numeric inputs and loops cleanly without crashing.</text>
+  <text x="50" y="532" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="400" fill="#94a3b8">Runtime Note: State resides in Python memory for the active session; restarting clears products and sales_records.</text>
+
+  <line x1="24" y1="607" x2="1376" y2="607" stroke="#1e293b" stroke-width="1"/>
+  <text x="28" y="629" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">Assessment 03: Smart Grocery Store Management System (smart_grocery_store.py) • Accurate Procedural &amp; In-Memory State Model</text>
+  <text x="1372" y="629" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">aliabbas0014/smart-grocery-store-system</text>
+</svg>

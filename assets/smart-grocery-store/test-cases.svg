@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 705" width="1400" height="705" role="img" aria-label="Test Cases Documentation Matrix">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="55%" stop-color="#0d172a"/>
+      <stop offset="100%" stop-color="#081120"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13223b"/>
+      <stop offset="100%" stop-color="#0f1b30"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.10"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#fbbf24"/>
+    </marker>
+    <pattern id="gridPattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1400" height="705" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="705" rx="16" fill="url(#gridPattern)"/>
+  <rect x="1" y="1" width="1398" height="703" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <rect x="24" y="20" width="1352" height="74" rx="12" fill="url(#headerGrad)" stroke="#0284c7" stroke-width="1.2"/>
+  <rect x="24" y="20" width="6" height="74" rx="3" fill="url(#accentBlue)"/>
+  <text x="46" y="51" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">Test Cases Documentation Matrix</text>
+  <text x="46" y="75" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8">Verification test suite covering input validation, inventory, sales, reporting, and menu control</text>
+
+  <rect x="1165" y="38" width="188" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1259" y="59" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">Python 3 • Procedural CLI</text>
+
+  <rect x="28" y="114" width="1344" height="38" rx="8" fill="#0c2d48" stroke="#38bdf8" stroke-width="1.4"/>
+  <text x="68" y="138" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">ID</text>
+  <text x="118" y="138" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">TEST SCENARIO</text>
+  <text x="375" y="138" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">INPUT CONDITIONS</text>
+  <text x="845" y="138" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#38bdf8">EXPECTED RESULT (ACTUAL CODE BEHAVIOR)</text>
+  <rect x="28" y="158" width="1344" height="44" rx="5" fill="#0d1b30" stroke="#1e293b"/>
+  <text x="68" y="185" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#34d399">TC-01</text>
+  <text x="118" y="185" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Add New Product (Valid)</text>
+  <text x="375" y="185" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Unique ID=101, name='Milk', cat='Dairy', price=250, stock=20</text>
+  <text x="845" y="185" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Appends dict to products; prints 'Product added successfully!'</text>
+  <rect x="28" y="206" width="1344" height="44" rx="5" fill="#11223b" stroke="#1e293b"/>
+  <text x="68" y="233" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#fbbf24">TC-02</text>
+  <text x="118" y="233" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Duplicate Product ID</text>
+  <text x="375" y="233" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Existing ID=101 entered in add_product()</text>
+  <text x="845" y="233" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Prints 'Error: This Product ID already exists!' and skips append</text>
+  <rect x="28" y="254" width="1344" height="44" rx="5" fill="#0d1b30" stroke="#1e293b"/>
+  <text x="68" y="281" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#38bdf8">TC-03</text>
+  <text x="118" y="281" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Invalid / Blank Input</text>
+  <text x="375" y="281" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Non-int ID, price &lt;= 0, stock &lt; 0, or empty name/category</text>
+  <text x="845" y="281" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Re-prompts via while loop / ValueError catch until valid</text>
+  <rect x="28" y="302" width="1344" height="44" rx="5" fill="#11223b" stroke="#1e293b"/>
+  <text x="68" y="329" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#38bdf8">TC-04</text>
+  <text x="118" y="329" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Display All Products</text>
+  <text x="375" y="329" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Menu '2' when products is populated vs. empty</text>
+  <text x="845" y="329" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Prints all product fields in Rs. or 'No products available.'</text>
+  <rect x="28" y="350" width="1344" height="44" rx="5" fill="#0d1b30" stroke="#1e293b"/>
+  <text x="68" y="377" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#22d3ee">TC-05</text>
+  <text x="118" y="377" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Search by ID or Name</text>
+  <text x="375" y="377" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Choice 'I' (ID=101) or 'N' ('milk') or non-existent item</text>
+  <text x="845" y="377" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Prints product details or 'Product not found!'</text>
+  <rect x="28" y="398" width="1344" height="44" rx="5" fill="#11223b" stroke="#1e293b"/>
+  <text x="68" y="425" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#22d3ee">TC-06</text>
+  <text x="118" y="425" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Update Stock (Add/Set)</text>
+  <text x="375" y="425" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Choice '1' (+10) or Choice '2' (set to 15) on existing ID</text>
+  <text x="845" y="425" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Updates product['stock'] and prints updated stock</text>
+  <rect x="28" y="446" width="1344" height="44" rx="5" fill="#0d1b30" stroke="#1e293b"/>
+  <text x="68" y="473" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#34d399">TC-07</text>
+  <text x="118" y="473" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Sale (Sufficient Stock)</text>
+  <text x="375" y="473" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Valid ID=101, qty=4 when stock=20, price=250.0</text>
+  <text x="845" y="473" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Total=1000.0; stock=16; appends sale to sales_records; receipt</text>
+  <rect x="28" y="494" width="1344" height="44" rx="5" fill="#11223b" stroke="#1e293b"/>
+  <text x="68" y="521" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#f87171">TC-08</text>
+  <text x="118" y="521" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Sale (Insufficient Stock)</text>
+  <text x="375" y="521" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Valid ID=101, qty=50 when available stock=16</text>
+  <text x="845" y="521" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Prints 'Insufficient stock! Sale cannot be completed.'; no change</text>
+  <rect x="28" y="542" width="1344" height="44" rx="5" fill="#0d1b30" stroke="#1e293b"/>
+  <text x="68" y="569" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#fbbf24">TC-09</text>
+  <text x="118" y="569" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Sales &amp; Store Report</text>
+  <text x="375" y="569" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Menu '6' &amp; '7' with sales, stock &lt; 5 item, and price range</text>
+  <text x="845" y="569" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Shows sales log, totals, revenue, &lt;5 stock, min/max price</text>
+  <rect x="28" y="590" width="1344" height="44" rx="5" fill="#11223b" stroke="#1e293b"/>
+  <text x="68" y="617" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#94a3b8">TC-10</text>
+  <text x="118" y="617" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc">Invalid Choice &amp; Exit</text>
+  <text x="375" y="617" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">Choice '9' / 'xyz' then Choice '8'</text>
+  <text x="845" y="617" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#e2e8f0">Prints invalid choice message on '9'/'xyz'; breaks &amp; exits on '8'</text>
+
+  <line x1="24" y1="667" x2="1376" y2="667" stroke="#1e293b" stroke-width="1"/>
+  <text x="28" y="689" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">Assessment 03: Smart Grocery Store Management System (smart_grocery_store.py) • Accurate Procedural &amp; In-Memory State Model</text>
+  <text x="1372" y="689" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">aliabbas0014/smart-grocery-store-system</text>
+</svg>

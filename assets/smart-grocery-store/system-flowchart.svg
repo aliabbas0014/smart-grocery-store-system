@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 650" width="1400" height="650" role="img" aria-label="System Flowchart">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="55%" stop-color="#0d172a"/>
+      <stop offset="100%" stop-color="#081120"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13223b"/>
+      <stop offset="100%" stop-color="#0f1b30"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.10"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#fbbf24"/>
+    </marker>
+    <pattern id="gridPattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1400" height="650" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="650" rx="16" fill="url(#gridPattern)"/>
+  <rect x="1" y="1" width="1398" height="648" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <rect x="24" y="20" width="1352" height="74" rx="12" fill="url(#headerGrad)" stroke="#0284c7" stroke-width="1.2"/>
+  <rect x="24" y="20" width="6" height="74" rx="3" fill="url(#accentBlue)"/>
+  <text x="46" y="51" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">System Flowchart</text>
+  <text x="46" y="75" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8">End-to-end control flow, menu branching (1-8), and while True loop in smart_grocery_store.py</text>
+
+  <rect x="1165" y="38" width="188" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1259" y="59" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">Python 3 • Procedural CLI</text>
+
+  <rect x="565" y="110" width="270" height="36" rx="18" fill="url(#accentBlue)" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="700" y="133" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#f8fafc">START: Run smart_grocery_store.py</text>
+  <path d="M 700 146 L 700 171" fill="none" stroke="#38bdf8" stroke-width="1.8" marker-end="url(#arrowCyan)"/>
+  <rect x="455" y="174" width="490" height="52" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.6"/>
+  <text x="700" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#f8fafc">Display Menu (1-8) &amp; Read Choice</text>
+  <text x="700" y="215" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="400" fill="#7dd3fc">choice = input(&quot;\nEnter your choice: &quot;).strip()</text>
+  <path d="M 700 226 L 700 249" fill="none" stroke="#38bdf8" stroke-width="1.8" marker-end="url(#arrowCyan)"/>
+  <polygon points="700,252 845,290 700,328 555,290" fill="#0c2d48" stroke="#fbbf24" stroke-width="1.6"/>
+  <text x="700" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#fde68a">choice == &quot;8&quot;?</text>
+  <path d="M 845 290 L 1049 290" fill="none" stroke="#34d399" stroke-width="1.8" marker-end="url(#arrowEmerald)"/>
+  <text x="945" y="282" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#6ee7b7">Yes (break)</text>
+  <rect x="1052" y="268" width="305" height="44" rx="22" fill="#08362c" stroke="#34d399" stroke-width="1.6"/>
+  <text x="1204" y="295" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#6ee7b7">Print Farewell &amp; Exit Program</text>
+  <line x1="700" y1="328" x2="700" y2="352" stroke="#38bdf8" stroke-width="1.8"/>
+  <text x="728" y="344" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#bae6fd">No</text>
+  <line x1="125" y1="352" x2="1282" y2="352" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M 125 352 L 125 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="35" y="370" width="180" height="100" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="125" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[1] add_product()</text>
+  <text x="125" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Unique ID check,</text>
+  <text x="125" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">validate fields,</text>
+  <text x="125" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">append product</text>
+  <path d="M 125 470 L 125 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 320 352 L 320 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="230" y="370" width="180" height="100" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="320" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[2] display_products()</text>
+  <text x="320" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Empty list check,</text>
+  <text x="320" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">loop products,</text>
+  <text x="320" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">print details</text>
+  <path d="M 320 470 L 320 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 515 352 L 515 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="425" y="370" width="180" height="100" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="515" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[3] search_product()</text>
+  <text x="515" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">By ID (I/i) or</text>
+  <text x="515" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Name (N/n),</text>
+  <text x="515" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">show match/msg</text>
+  <path d="M 515 470 L 515 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 710 352 L 710 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="620" y="370" width="180" height="100" rx="8" fill="url(#cardGrad)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="710" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[4] update_stock()</text>
+  <text x="710" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Find ID; add (1)</text>
+  <text x="710" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">or set (2) stock,</text>
+  <text x="710" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">print updated</text>
+  <path d="M 710 470 L 710 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 905 352 L 905 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="815" y="370" width="180" height="100" rx="8" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="905" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[5] process_sale()</text>
+  <text x="905" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Check ID &amp; stock,</text>
+  <text x="905" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">deduct &amp; total,</text>
+  <text x="905" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">append sale</text>
+  <path d="M 905 470 L 905 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 1097 352 L 1097 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="1010" y="370" width="175" height="100" rx="8" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1097" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[6] view_sales()</text>
+  <text x="1097" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Empty check,</text>
+  <text x="1097" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">loop sales list,</text>
+  <text x="1097" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">print records</text>
+  <path d="M 1097 470 L 1097 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <path d="M 1282 352 L 1282 367" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrowCyan)"/>
+  <rect x="1200" y="370" width="165" height="100" rx="8" fill="url(#cardGrad)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="1282" y="392" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">[7] generate_report()</text>
+  <text x="1282" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">Totals, revenue,</text>
+  <text x="1282" y="429" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">stock &lt; 5 list,</text>
+  <text x="1282" y="446" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#cbd5e1">min/max price</text>
+  <path d="M 1282 470 L 1282 507" fill="none" stroke="#38bdf8" stroke-width="1.4" marker-end="url(#arrowCyan)"/>
+  <rect x="35" y="510" width="1330" height="44" rx="8" fill="#0f2942" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="700" y="536" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#e2e8f0">Other choices print &quot;Invalid choice! Please select between 1 and 8.&quot; • Operations 1-7 loop back to Menu</text>
+  <path d="M 35 532 L 16 532 L 16 200 L 452 200" fill="none" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrowCyan)"/>
+
+  <line x1="24" y1="612" x2="1376" y2="612" stroke="#1e293b" stroke-width="1"/>
+  <text x="28" y="634" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">Assessment 03: Smart Grocery Store Management System (smart_grocery_store.py) • Accurate Procedural &amp; In-Memory State Model</text>
+  <text x="1372" y="634" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">aliabbas0014/smart-grocery-store-system</text>
+</svg>

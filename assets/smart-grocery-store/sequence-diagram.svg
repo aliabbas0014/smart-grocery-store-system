@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 680" width="1400" height="680" role="img" aria-label="Sequence Diagram — Customer Sale Workflow (process_sale)">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070d1a"/>
+      <stop offset="55%" stop-color="#0d172a"/>
+      <stop offset="100%" stop-color="#081120"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#13223b"/>
+      <stop offset="100%" stop-color="#0f1b30"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentEmerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="accentAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.10"/>
+    </linearGradient>
+    <marker id="arrowCyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowEmerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#34d399"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#fbbf24"/>
+    </marker>
+    <pattern id="gridPattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1400" height="680" rx="16" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="680" rx="16" fill="url(#gridPattern)"/>
+  <rect x="1" y="1" width="1398" height="678" rx="15" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+
+  <rect x="24" y="20" width="1352" height="74" rx="12" fill="url(#headerGrad)" stroke="#0284c7" stroke-width="1.2"/>
+  <rect x="24" y="20" width="6" height="74" rx="3" fill="url(#accentBlue)"/>
+  <text x="46" y="51" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">Sequence Diagram — Customer Sale Workflow (process_sale)</text>
+  <text x="46" y="75" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#94a3b8">Step-by-step interactions during menu option 5 in smart_grocery_store.py</text>
+
+  <rect x="1165" y="38" width="188" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1259" y="59" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">Python 3 • Procedural CLI</text>
+
+  <rect x="44" y="114" width="190" height="40" rx="8" fill="#0c2d48" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="139" y="139" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Store Owner / User</text>
+  <line x1="139" y1="154" x2="139" y2="624" stroke="#38bdf8" stroke-width="1.4" stroke-dasharray="5,5"/>
+  <rect x="325" y="114" width="230" height="40" rx="8" fill="#0b3446" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="440" y="139" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Menu Loop &amp; process_sale()</text>
+  <line x1="440" y1="154" x2="440" y2="624" stroke="#22d3ee" stroke-width="1.4" stroke-dasharray="5,5"/>
+  <rect x="645" y="114" width="230" height="40" rx="8" fill="#13223b" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="760" y="139" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11.5" font-weight="700" fill="#fde68a">get_positive_integer()</text>
+  <line x1="760" y1="154" x2="760" y2="624" stroke="#fbbf24" stroke-width="1.4" stroke-dasharray="5,5"/>
+  <rect x="965" y="114" width="175" height="40" rx="8" fill="#08362c" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1052" y="139" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11.5" font-weight="700" fill="#6ee7b7">products (list)</text>
+  <line x1="1052" y1="154" x2="1052" y2="624" stroke="#34d399" stroke-width="1.4" stroke-dasharray="5,5"/>
+  <rect x="1185" y="114" width="180" height="40" rx="8" fill="#08362c" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1275" y="139" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11.5" font-weight="700" fill="#6ee7b7">sales_records (list)</text>
+  <line x1="1275" y1="154" x2="1275" y2="624" stroke="#34d399" stroke-width="1.4" stroke-dasharray="5,5"/>
+  <path d="M 139 186 L 437 186" fill="none" stroke="#38bdf8" stroke-width="1.6" marker-end="url(#arrowCyan)"/>
+  <text x="289" y="179" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#bae6fd">1: chooses &quot;5&quot; (Process Customer Sale)</text>
+  <path d="M 440 218 L 757 218" fill="none" stroke="#fbbf24" stroke-width="1.6" marker-end="url(#arrowAmber)"/>
+  <text x="600" y="211" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#fde68a">2: get_positive_integer(&quot;Enter Product ID: &quot;)</text>
+  <path d="M 440 250 L 1049 250" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowEmerald)"/>
+  <text x="746" y="243" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#a7f3d0">3: find_product(product_id) -&gt; match product[&quot;id&quot;]</text>
+  <rect x="114" y="268" width="1195" height="340" rx="8" fill="#0b172a" fill-opacity="0.7" stroke="#334155" stroke-width="1.2"/>
+  <rect x="114" y="268" width="135" height="24" rx="5" fill="#1e293b"/>
+  <text x="181" y="284" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#f8fafc">alt [product != None]</text>
+  <path d="M 440 312 L 142 312" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowCyan)"/>
+  <text x="289" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">4: prints product name, price (Rs.), available stock</text>
+  <path d="M 440 344 L 757 344" fill="none" stroke="#fbbf24" stroke-width="1.6" marker-end="url(#arrowAmber)"/>
+  <text x="600" y="337" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#fde68a">5: get_positive_integer(&quot;Enter Purchase Quantity: &quot;)</text>
+  <rect x="132" y="362" width="1158" height="190" rx="6" fill="#0d2238" fill-opacity="0.6" stroke="#0284c7" stroke-width="1"/>
+  <rect x="132" y="362" width="175" height="22" rx="5" fill="#0c2d48"/>
+  <text x="219" y="377" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="10.5" font-weight="700" fill="#7dd3fc">alt [qty &lt;= stock]</text>
+  <path d="M 440 404 L 1049 404" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowEmerald)"/>
+  <text x="746" y="397" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#a7f3d0">6: total_amount = price * qty; product[&quot;stock&quot;] -= qty</text>
+  <path d="M 440 440 L 1272 440" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowEmerald)"/>
+  <text x="857" y="433" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="400" fill="#a7f3d0">7: sales_records.append(sale_dict)</text>
+  <path d="M 440 476 L 142 476" fill="none" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arrowCyan)"/>
+  <text x="289" y="469" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#cbd5e1">8: prints Purchase Summary &amp; remaining stock</text>
+  <line x1="132" y1="512" x2="1290" y2="512" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <text x="150" y="534" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#fbbf24">[else qty &gt; stock]: prints &quot;Insufficient stock! Sale cannot be completed.&quot; and returns to menu</text>
+  <line x1="114" y1="566" x2="1309" y2="566" stroke="#94a3b8" stroke-width="1.3" stroke-dasharray="4,3"/>
+  <text x="130" y="590" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#f87171">[else product == None]: prints &quot;Product not found!&quot; and returns to main menu loop</text>
+
+  <line x1="24" y1="642" x2="1376" y2="642" stroke="#1e293b" stroke-width="1"/>
+  <text x="28" y="664" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#94a3b8">Assessment 03: Smart Grocery Store Management System (smart_grocery_store.py) • Accurate Procedural &amp; In-Memory State Model</text>
+  <text x="1372" y="664" text-anchor="end" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="700" fill="#7dd3fc">aliabbas0014/smart-grocery-store-system</text>
+</svg>
